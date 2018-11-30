@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mine.zhuo.learnandroid.ClickEventViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mine.zhuo.learnandroid.ClickEventViewGroup
+        android:id="@+id/group2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_blue_light">
+
+        <com.mine.zhuo.learnandroid.ClickEventView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_orange_light"/>
+
+    </com.mine.zhuo.learnandroid.ClickEventViewGroup>
+
+
+</com.mine.zhuo.learnandroid.ClickEventViewGroup>

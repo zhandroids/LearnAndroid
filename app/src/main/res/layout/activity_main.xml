@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/root_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mine.zhuo.learnandroid.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/text_vie"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Hello World!"
+        android:background="@color/colorPrimary"
+        android:layout_margin="50dp"/>
+
+    <com.mine.zhuo.learnandroid.MyTextView
+        android:id="@+id/text_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Hello World!"
+        android:visibility="gone"
+        android:background="@android:color/white"
+        android:layout_margin="50dp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:text="动"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.mine.zhuo.learnandroid.MoveView
+        android:id="@+id/move"
+        android:text="move"
+        android:background="@android:color/holo_green_light"
+        android:layout_centerInParent="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+</RelativeLayout>
