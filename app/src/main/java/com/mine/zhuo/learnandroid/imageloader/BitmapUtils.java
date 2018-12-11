@@ -1,4 +1,4 @@
-package com.mine.zhuo.learnandroid;
+package com.mine.zhuo.learnandroid.imageloader;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.ImageView;
 
+import com.mine.zhuo.learnandroid.imageloader.BitmapUtils;
+
 /**
  *
  * @author Administrator
