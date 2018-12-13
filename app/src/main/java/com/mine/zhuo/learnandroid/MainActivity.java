@@ -1,5 +1,6 @@
 package com.mine.zhuo.learnandroid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -35,8 +36,9 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(new Intent(getApplication(),EventActivity.class));
 //                startActivity(new Intent(getApplication(),ScrollerActivity.class));
 //                startActivity(new Intent(getApplication(), ImageActivity.class));
-                int arrays[] = {48, 80, 79, 79,82, 148, 155};
-                test(arrays);
+                startActivity(new Intent(getApplication(), LoaderActivity.class));
+//                int arrays[] = {48, 80, 79, 79,82, 148, 155};
+//                test(arrays);
 
             }
         });
